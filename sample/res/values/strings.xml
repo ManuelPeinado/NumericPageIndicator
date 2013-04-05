@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NumericPageIndicator sample</string>
+    <string name="activity_title_basic_usage">Basic usage</string>
+    <string name="activity_title_styling">Styling</string>
+    <string name="activity_title_styling_programmatically">Styling programmatically</string>
+    <string name="custom_npi_text_template">#i/#N"</string>
+    <string name="custom_npi_previous_button_text">Prev.</string>
+    <string name="custom_npi_next_button_text">Next</string>
+    
+</resources>

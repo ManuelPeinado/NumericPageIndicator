@@ -1,0 +1,12 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.Sherlock">
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <item name="android:actionBarStyle">@style/Widget.Styled.ActionBar</item>
+    </style>
+
+    <style name="StyledNumericPageIndicator" parent="AppTheme">
+        <item name="numericPageIndicatorStyle">@style/CustomNumericPageIndicator</item>
+    </style>
+
+</resources>

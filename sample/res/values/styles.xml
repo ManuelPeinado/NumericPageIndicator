@@ -1,0 +1,24 @@
+<resources>
+
+    <style name="Widget.Styled.ActionBar" parent="Widget.Sherlock.Light.ActionBar.Solid">
+        <item name="android:background">@color/action_bar_bg</item>
+        <item name="background">@color/action_bar_bg</item>
+    </style>
+    
+    <style name="CustomNumericPageIndicator">
+        <item name="textTemplate">@string/custom_npi_text_template</item>
+        <item name="previousButtonText">@string/custom_npi_previous_button_text</item>
+        <item name="nextButtonText">@string/custom_npi_next_button_text</item>
+        <item name="android:textColor">#B000</item>
+        <item name="pageNumberTextColor">#BF00</item>
+        <item name="pageNumberTextBold">false</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:background">#CCC</item>
+        <item name="pressedButtonColor">#2F00</item>
+        <item name="showChangePageButtons">true</item>
+        
+    </style>
+    
+</resources>

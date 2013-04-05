@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_page_number_indicator_text_template">Page #i of #N</string>
+    <string name="default_page_number_indicator_previous_button_text">Previous</string>
+    <string name="default_page_number_indicator_next_button_text">Next</string>
+    <color name="default_page_number_indicator_text_color">#AFFF</color>
+    <color name="default_page_number_indicator_page_number_text_color">#FFFF</color>
+    <bool name="default_page_number_indicator_page_number_text_bold">true</bool>
+    <color name="default_page_number_indicator_pressed_button_color">#3FFF</color>
+    <dimen name="default_page_number_indicator_text_size">15dp</dimen>
+    <dimen name="default_page_number_indicator_top_padding">15dp</dimen> 
+    <dimen name="default_page_number_indicator_bottom_padding">15dp</dimen>
+    <bool name="default_page_number_indicator_show_change_page_buttons">true</bool> 
+</resources>
