@@ -1,7 +1,7 @@
 NumericPageIndicator
 ====================
 
-A ViewPager page indicator that displays the current page number and (optionally) the page count. It can also display buttons to go the previous and next pages.
+A ViewPager page indicator that displays the current page number and (optionally) the page count. It can also display buttons to go move to adjacent pages.
 
 Integrates seamlessly with Jake Wharton's [ViewPagerIndicator][1] library.
 
@@ -34,7 +34,9 @@ If you use maven to build your Android project you can simply add a dependency f
 Usage
 -----
 
-Add a <tt><com.manuelpeinado.numericpageindicator.NumericPageIndicator></tt> element to your XML layout and attach it to your ViewPager in your Java code just like you would with any of the built-in ViewPagerIndicator classes. See the accompanying sample application for a complete example.
+Add a <tt><com.manuelpeinado.numericpageindicator.NumericPageIndicator></tt> element to your XML layout and attach it to your ViewPager in your Java code just like you would with any of the built-in ViewPagerIndicator classes. 
+
+See the accompanying sample application for a complete example.
 
 Customization
 -------------
