@@ -1,8 +1,8 @@
 <resources>
 
     <style name="AppTheme" parent="Theme.Sherlock">
-        <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
-        <item name="android:actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <item name="actionBarStyle">@style/Widget.ActionBar.Styled</item>
+        <item name="android:actionBarStyle">@style/Widget.ActionBar.Styled</item>
     </style>
 
     <style name="StyledNumericPageIndicator" parent="AppTheme">

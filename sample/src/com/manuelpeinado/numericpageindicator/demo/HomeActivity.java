@@ -30,7 +30,8 @@ import com.actionbarsherlock.app.SherlockListActivity;
 public class HomeActivity extends SherlockListActivity {
     private List<ActivityInfo> activitiesInfo = Arrays.asList(
             new ActivityInfo(BasicUsageActivity.class, R.string.activity_title_basic_usage),
-            new ActivityInfo(StylingActivity.class, R.string.activity_title_styling),
+            new ActivityInfo(StylingInThemeActivity.class, R.string.activity_title_styling_in_theme),
+            new ActivityInfo(StylingInLayoutActivity.class, R.string.activity_title_styling_in_layout),
             new ActivityInfo(StylingProgrammaticallyActivity.class, R.string.activity_title_styling_programmatically));
     
     @Override

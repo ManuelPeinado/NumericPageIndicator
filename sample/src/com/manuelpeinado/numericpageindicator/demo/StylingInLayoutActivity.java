@@ -15,26 +15,40 @@
  */
 package com.manuelpeinado.numericpageindicator.demo;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 
 import com.actionbarsherlock.app.SherlockActivity;
+import com.actionbarsherlock.view.MenuItem;
 import com.manuelpeinado.numericpageindicator.demo.R;
 import com.viewpagerindicator.PageIndicator;
 
-public class StylingActivity extends SherlockActivity {
+public class StylingInLayoutActivity extends SherlockActivity {
     private ViewPager viewPager;
     private PageIndicator pageIndicator;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_styling_in_layout);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         viewPager = (ViewPager) findViewById(R.id.pager);
         viewPager.setAdapter(new MyPagerAdapter());
         pageIndicator = (PageIndicator) findViewById(R.id.pageIndicator);
         pageIndicator.setViewPager(viewPager);
     }
-
+    
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            Intent parentActivityIntent = new Intent(this, HomeActivity.class);
+            parentActivityIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(parentActivityIntent);
+            finish();
+            return true;
+        }
+        return false;
+    }
 }

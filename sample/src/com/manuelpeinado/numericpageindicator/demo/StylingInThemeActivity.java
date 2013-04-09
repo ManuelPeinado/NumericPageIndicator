@@ -21,9 +21,10 @@ import android.support.v4.view.ViewPager;
 
 import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.view.MenuItem;
+import com.manuelpeinado.numericpageindicator.demo.R;
 import com.viewpagerindicator.PageIndicator;
 
-public class BasicUsageActivity extends SherlockActivity {
+public class StylingInThemeActivity extends SherlockActivity {
     private ViewPager viewPager;
     private PageIndicator pageIndicator;
 

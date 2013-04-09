@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.manuelpeinado.numericpageindicator.demo"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.0.0" >
 
     <uses-sdk
         android:minSdkVersion="8"
@@ -26,9 +26,12 @@
             android:name=".BasicUsageActivity"
             android:label="@string/activity_title_basic_usage" />
         <activity
-            android:name=".StylingActivity"
-            android:label="@string/activity_title_styling"
+            android:name=".StylingInThemeActivity"
+            android:label="@string/activity_title_styling_in_theme"
             android:theme="@style/StyledNumericPageIndicator" />
+        <activity
+            android:name=".StylingInLayoutActivity"
+            android:label="@string/activity_title_styling_in_layout" />
         <activity
             android:name=".StylingProgrammaticallyActivity"
             android:label="@string/activity_title_styling_programmatically" />

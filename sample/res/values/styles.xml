@@ -1,6 +1,6 @@
 <resources>
 
-    <style name="Widget.Styled.ActionBar" parent="Widget.Sherlock.Light.ActionBar.Solid">
+    <style name="Widget.ActionBar.Styled" parent="Widget.Sherlock.Light.ActionBar.Solid">
         <item name="android:background">@color/action_bar_bg</item>
         <item name="background">@color/action_bar_bg</item>
     </style>

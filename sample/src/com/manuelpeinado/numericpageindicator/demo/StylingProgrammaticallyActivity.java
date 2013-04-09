@@ -15,11 +15,13 @@
  */
 package com.manuelpeinado.numericpageindicator.demo;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 
 import com.actionbarsherlock.app.SherlockActivity;
+import com.actionbarsherlock.view.MenuItem;
 import com.manuelpeinado.numericpageindicator.NumericPageIndicator;
 
 public class StylingProgrammaticallyActivity extends SherlockActivity {
@@ -30,6 +32,7 @@ public class StylingProgrammaticallyActivity extends SherlockActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         viewPager = (ViewPager) findViewById(R.id.pager);
         viewPager.setAdapter(new MyPagerAdapter());
@@ -51,4 +54,15 @@ public class StylingProgrammaticallyActivity extends SherlockActivity {
         pageIndicator.setShowChangePageButtons(true);
     }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            Intent parentActivityIntent = new Intent(this, HomeActivity.class);
+            parentActivityIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(parentActivityIntent);
+            finish();
+            return true;
+        }
+        return false;
+    }
 }
