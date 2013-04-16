@@ -32,7 +32,8 @@ public class HomeActivity extends SherlockListActivity {
             new ActivityInfo(BasicUsageActivity.class, R.string.activity_title_basic_usage),
             new ActivityInfo(StylingInThemeActivity.class, R.string.activity_title_styling_in_theme),
             new ActivityInfo(StylingInLayoutActivity.class, R.string.activity_title_styling_in_layout),
-            new ActivityInfo(StylingProgrammaticallyActivity.class, R.string.activity_title_styling_programmatically));
+            new ActivityInfo(StylingProgrammaticallyActivity.class, R.string.activity_title_styling_programmatically),
+            new ActivityInfo(ButtonsInLandscapeActivity.class, R.string.activity_title_buttons_in_landscape));
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -8,5 +8,8 @@
     <style name="StyledNumericPageIndicator" parent="AppTheme">
         <item name="numericPageIndicatorStyle">@style/CustomNumericPageIndicator</item>
     </style>
-
+    <style name="StyledNumericPageIndicator.ButtonsInLandscape">
+        <item name="numericPageIndicatorStyle">@style/CustomNumericPageIndicator.ButtonsInLandscape</item>
+    </style>
+    
 </resources>

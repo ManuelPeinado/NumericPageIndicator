@@ -21,12 +21,14 @@
         android:paddingTop="20dp"
         android:textColor="#B000"
         android:textSize="18dp"
+        custom:endButtonText="@string/custom_npi_end_button_text_2"
         custom:nextButtonText="@string/custom_npi_next_button_text_2"
         custom:pageNumberTextBold="false"
         custom:pageNumberTextColor="#B00F"
         custom:pressedButtonColor="#3000"
         custom:previousButtonText="@string/custom_npi_previous_button_text_2"
         custom:showChangePageButtons="true"
+        custom:startButtonText="@string/custom_npi_start_button_text_2"
         custom:textTemplate="@string/custom_npi_text_template_2" />
 
 </LinearLayout>

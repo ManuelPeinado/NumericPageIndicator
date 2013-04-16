@@ -16,19 +16,19 @@
 package com.manuelpeinado.numericpageindicator.demo;
 
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 
 import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.view.MenuItem;
-import com.manuelpeinado.numericpageindicator.NumericPageIndicator;
+import com.manuelpeinado.numericpageindicator.demo.R;
+import com.viewpagerindicator.PageIndicator;
 
-public class StylingProgrammaticallyActivity extends SherlockActivity {
+public class ButtonsInLandscapeActivity extends SherlockActivity {
     private ViewPager viewPager;
-    private NumericPageIndicator pageIndicator;
+    private PageIndicator pageIndicator;
 
-    @Override   
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -36,26 +36,10 @@ public class StylingProgrammaticallyActivity extends SherlockActivity {
 
         viewPager = (ViewPager) findViewById(R.id.pager);
         viewPager.setAdapter(new MyPagerAdapter());
-        pageIndicator = (NumericPageIndicator) findViewById(R.id.pageIndicator);
+        pageIndicator = (PageIndicator) findViewById(R.id.pageIndicator);
         pageIndicator.setViewPager(viewPager);
-        
-        pageIndicator.setTextTemplate("Page: #i");
-        pageIndicator.setStartButtonText("|<");
-        pageIndicator.setPreviousButtonText("<");
-        pageIndicator.setNextButtonText(">");
-        pageIndicator.setEndButtonText(">|");
-        pageIndicator.setTextColor(Color.argb(128, 255, 255, 255));
-        pageIndicator.setPageNumberTextColor(Color.argb(192, 255, 255, 255));
-        pageIndicator.setPageNumberTextBold(false);
-        final float scale = getResources().getDisplayMetrics().density;
-        pageIndicator.setTextSize((int)(12 * scale + 0.5f));
-        pageIndicator.setTopPadding((int)(7 * scale + 0.5f));
-        pageIndicator.setBottomPadding((int)(7 * scale + 0.5f));
-        pageIndicator.setBackgroundColor(Color.rgb(64, 96, 64));
-        pageIndicator.setPressedButtonColor(Color.argb(128, 255, 255, 255));
-        pageIndicator.setShowChangePageButtons(true);
     }
-
+    
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == android.R.id.home) {

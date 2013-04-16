@@ -6,11 +6,16 @@
     <string name="activity_title_styling_in_theme">Styling in theme</string>
     <string name="activity_title_styling_in_layout">Styling in XML layout</string>
     <string name="activity_title_styling_programmatically">Styling programmatically</string>
+    <string name="activity_title_buttons_in_landscape">Buttons in landscape mode only</string>
     <string name="custom_npi_text_template">#i/#N"</string>
     <string name="custom_npi_text_template_2">#i of #N"</string>
     <string name="custom_npi_previous_button_text">Prev.</string>
     <string name="custom_npi_next_button_text">Next</string>
+    <string name="custom_npi_start_button_text">First</string>
+    <string name="custom_npi_end_button_text">Last</string>
     <string name="custom_npi_previous_button_text_2">More</string>
     <string name="custom_npi_next_button_text_2">Less</string>
+    <string name="custom_npi_start_button_text_2">1st</string>
+    <string name="custom_npi_end_button_text_2">Nth</string>
     
 </resources>

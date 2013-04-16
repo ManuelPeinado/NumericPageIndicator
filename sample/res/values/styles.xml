@@ -9,6 +9,8 @@
         <item name="textTemplate">@string/custom_npi_text_template</item>
         <item name="previousButtonText">@string/custom_npi_previous_button_text</item>
         <item name="nextButtonText">@string/custom_npi_next_button_text</item>
+        <item name="startButtonText">@string/custom_npi_start_button_text</item>
+        <item name="endButtonText">@string/custom_npi_end_button_text</item>
         <item name="android:textColor">#B000</item>
         <item name="pageNumberTextColor">#BF00</item>
         <item name="pageNumberTextBold">false</item>
@@ -18,7 +20,12 @@
         <item name="android:background">#CCC</item>
         <item name="pressedButtonColor">#2F00</item>
         <item name="showChangePageButtons">true</item>
-        
+        <item name="showStartEndButtons">true</item>
+    </style>
+    
+    <style name="CustomNumericPageIndicator.ButtonsInLandscape">
+        <item name="showChangePageButtons">@bool/landscape</item>
+        <item name="showStartEndButtons">@bool/landscape</item>
     </style>
     
 </resources>

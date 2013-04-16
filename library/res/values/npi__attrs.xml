@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2012 Jake Wharton
-     Copyright (C) 2011 Patrik Åkerfeldt
+     Copyright (C) 2013 Manuel Peinado Gallego
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -29,6 +28,10 @@
             the number of pages. Example: "Page #i of #N"
         -->
         <attr name="textTemplate" format="string" />
+        <!-- Text of the "Start" (or "First page") button. -->
+        <attr name="startButtonText" format="string" />
+        <!-- Text of the "End" (or "Last Page") button. -->
+        <attr name="endButtonText" format="string" />
         <!-- Text of the "Previous" button. -->
         <attr name="previousButtonText" format="string" />
         <!-- Text of the "Next" button. -->
@@ -51,6 +54,8 @@
         <attr name="pressedButtonColor" format="color" />
         <!-- Whether to show the "next" and "previous" buttons -->
         <attr name="showChangePageButtons" format="boolean" />
-    </declare-styleable>
+        <!-- Whether to show the "next" and "previous" buttons -->
+        <attr name="showStartEndButtons" format="boolean" />
+        </declare-styleable>
 
 </resources>

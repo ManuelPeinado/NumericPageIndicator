@@ -1,7 +1,7 @@
 NumericPageIndicator
 ====================
 
-A ViewPager page indicator that displays the current page number and (optionally) the page count. It can also display buttons to go move to adjacent pages.
+A ViewPager page indicator that displays the current page number and (optionally) the page count. It can also display buttons to go move to adjacent pages, and to move to the start and end pages.
 
 Integrates seamlessly with Jake Wharton's [ViewPagerIndicator][1] library.
 
@@ -27,7 +27,7 @@ If you use maven to build your Android project you can simply add a dependency f
     <dependency>
         <groupId>com.github.manuelpeinado.numericpageindicator</groupId>
         <artifactId>library</artifactId>
-        <version>1.0.0</version>
+        <version>1.1.0</version>
         <type>apklib</type>
     </dependency>
 
