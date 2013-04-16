@@ -1,7 +1,7 @@
 NumericPageIndicator
 ====================
 
-A ViewPager page indicator that displays the current page number and (optionally) the page count. It can also display buttons to go move to adjacent pages, and to move to the start and end pages.
+A ViewPager page indicator that displays the current page number and (optionally) the page count. It can also display buttons to go to adjacent pages, and to move to the start and end pages.
 
 Integrates seamlessly with Jake Wharton's [ViewPagerIndicator][1] library.
 
