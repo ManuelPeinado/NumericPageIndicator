@@ -24,12 +24,14 @@ If you’re using the Eclipse ADT plugin you can include NumericPageIndicator as
 
 If you use maven to build your Android project you can simply add a dependency for this library.
 
-    <dependency>
-        <groupId>com.github.manuelpeinado.numericpageindicator</groupId>
-        <artifactId>library</artifactId>
-        <version>1.1.0</version>
-        <type>apklib</type>
-    </dependency>
+```xml
+<dependency>
+    <groupId>com.github.manuelpeinado.numericpageindicator</groupId>
+    <artifactId>library</artifactId>
+    <version>1.1.0</version>
+    <type>apklib</type>
+</dependency>
+```
 
 Usage
 -----
