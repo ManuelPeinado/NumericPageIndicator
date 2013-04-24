@@ -51,6 +51,11 @@ You can customize the look of the indicators in any of the following ways:
 
 The sample application includes one activity to illustrate each of these methods.
 
+Who's using it
+--------------
+ 
+*Does your app use NumericPageIndicator? If you want to be featured on this list drop me a line.*
+
 Developed By
 --------------------
 
