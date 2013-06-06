@@ -475,9 +475,10 @@ public class NumericPageIndicator extends View implements PageIndicator {
         if (mShowStartEndButtons) {
             final int textStartAlpha = Color.alpha(mColorText);
             final int textEndAlpha = 0;
-            if (mStartDown) {
+            if (mCurrentPage != 0 && mStartDown) {
                 canvas.drawRect(mRectStart, mPaintButtonBackground);
-            } else if (mEndDown) {
+            }
+            if (mCurrentPage != count - 1 && mEndDown) {
                 canvas.drawRect(mRectEnd, mPaintButtonBackground);
             }
             if (mCurrentPage == 0) {
@@ -499,9 +500,10 @@ public class NumericPageIndicator extends View implements PageIndicator {
         if (mShowChangePageButtons) {
             final int textStartAlpha = Color.alpha(mColorText);
             final int textEndAlpha = 0;
-            if (mPreviousDown) {
+            if (mCurrentPage != 0 && mPreviousDown) {
                 canvas.drawRect(mRectPrevious, mPaintButtonBackground);
-            } else if (mNextDown) {
+            } 
+            if (mCurrentPage != count - 1 && mNextDown) {
                 canvas.drawRect(mRectNext, mPaintButtonBackground);
             }
             if (mCurrentPage == 0) {
