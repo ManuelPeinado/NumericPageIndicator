@@ -28,7 +28,7 @@ If you use maven to build your Android project you can simply add a dependency f
 <dependency>
     <groupId>com.github.manuelpeinado.numericpageindicator</groupId>
     <artifactId>library</artifactId>
-    <version>1.1.0</version>
+    <version>1.1.1</version>
     <type>apklib</type>
 </dependency>
 ```
